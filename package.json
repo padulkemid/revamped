@@ -1,11 +1,14 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "padulkemid",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "engines": {
+    "node": "12.x"
+  },
+  "description": "Padulkemid",
+  "version": "1.0.0",
+  "author": "Fadhil Muhammad <bringitdown0@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/padulkemid/revamped/issues"
   },
   "dependencies": {
     "gatsby": "^2.22.15",
@@ -38,15 +41,17 @@
   "devDependencies": {
     "prettier": "2.0.5"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://padulkem.id",
   "keywords": [
-    "gatsby"
+    "padulkemid",
+    "padul",
+    "dulkemid"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/padulkemid/revamped.git"
   },
   "scripts": {
     "build": "gatsby build",
