@@ -53,7 +53,7 @@ const Bio = () => {
         }}
       />
       <p>
-        <b>padulkemid</b>
+        <b>padul</b>
         <br />
         selalu rebahan tiap hari, kalo mau nulis ya nulis kalo nggak yaudah.
       </p>

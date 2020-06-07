@@ -38,7 +38,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Home" />
+      <SEO title="⭐️" />
       <HomeBio />
       <hr
         style={{
