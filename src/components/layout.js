@@ -130,7 +130,7 @@ const Layout = ({ location, title, children }) => {
             marginLeft: `auto`,
             textAlign: `right`,
           }}>
-          &copy; {new Date().getFullYear()}, Fadhil Muhammad
+          &copy; {new Date().getFullYear()}, padulkemid
         </p>
       </footer>
     </div>
