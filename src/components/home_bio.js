@@ -11,9 +11,9 @@ import Image from 'gatsby-image';
 
 import { rhythm } from '../utils/typography';
 
-const Bio = () => {
+const HomeBio = () => {
   const data = useStaticQuery(graphql`
-    query BioQuery {
+    query HomeBioQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
         childImageSharp {
           fixed(width: 50, height: 50) {
@@ -25,7 +25,6 @@ const Bio = () => {
         siteMetadata {
           author {
             name
-            summary
           }
         }
       }
@@ -53,11 +52,12 @@ const Bio = () => {
         }}
       />
       <p>
-        <b>Fadhil Muhammad</b>
-        <br />I wrote things kalo gabut, feel free to share.
+        What's up! My name is <b>Fadhil Muhammad</b>.
+        <br />
+        kalo lagi gabut bakal nulis konten disini.
       </p>
     </div>
   );
 };
 
-export default Bio;
+export default HomeBio;
