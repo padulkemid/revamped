@@ -36,7 +36,7 @@ const HomeBio = () => {
     <div
       style={{
         display: `flex`,
-        marginBottom: rhythm(2.5),
+        marginBottom: rhythm(1),
       }}>
       <Image
         fixed={data.avatar.childImageSharp.fixed}

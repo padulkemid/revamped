@@ -40,6 +40,11 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Home" />
       <HomeBio />
+      <hr
+        style={{
+          marginBottom: rhythm(1),
+        }}
+      />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug;
         return (

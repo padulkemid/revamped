@@ -38,7 +38,7 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h1
         style={{
-          ...scale(0.5),
+          ...scale(0.42),
           marginBottom: rhythm(1.5),
           marginTop: 0,
         }}>
@@ -88,6 +88,11 @@ const Layout = ({ location, title, children }) => {
       }}>
       <header>{header}</header>
       <main>{children}</main>
+      <hr
+        style={{
+          marginBottom: rhythm(1),
+        }}
+      />
       <footer
         style={{
           display: `flex`,
@@ -123,6 +128,7 @@ const Layout = ({ location, title, children }) => {
           style={{
             marginTop: rhythm(1 / 4),
             marginLeft: `auto`,
+            textAlign: `right`,
           }}>
           &copy; {new Date().getFullYear()}, Fadhil Muhammad
         </p>
