@@ -52,7 +52,7 @@ const HomeBio = () => {
         }}
       />
       <p>
-        What's up! My name is <b>Fadhil Muhammad</b>.
+        Samlekommm! My name is <b>Fadhil Muhammad</b>.
         <br />
         kalo lagi gabut bakal nulis konten disini.
       </p>

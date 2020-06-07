@@ -5,6 +5,7 @@ import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { rhythm, scale } from '../utils/typography';
+import { readingTime } from '../utils/helper';
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark;
@@ -21,6 +22,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <header>
           <h1
             style={{
+              fontFamily: `Poppins, sans-serif`,
               marginTop: rhythm(1),
               marginBottom: 0,
             }}>
@@ -32,7 +34,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               display: `block`,
               marginBottom: rhythm(1),
             }}>
-            {post.frontmatter.date}
+            {post.frontmatter.date} &nbsp;•&nbsp; {readingTime(post.timeToRead)}
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -89,6 +91,7 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      timeToRead
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")

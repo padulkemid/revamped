@@ -6,6 +6,7 @@ import HomeBio from '../components/home_bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { rhythm } from '../utils/typography';
+import { readingTime } from '../utils/helper';
 
 type Data = {
   site: {
@@ -17,6 +18,7 @@ type Data = {
     edges: {
       node: {
         excerpt: string;
+        timeToRead: number;
         frontmatter: {
           title: string;
           date: string;
@@ -47,11 +49,13 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
                 style={{
                   marginBottom: rhythm(1 / 4),
                 }}>
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                <Link style={{ color: `white` }} to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              <small>
+                {node.frontmatter.date} → {readingTime(node.timeToRead)}
+              </small>
             </header>
             <section>
               <p
@@ -83,6 +87,7 @@ export const pageQuery = graphql`
           fields {
             slug
           }
+          timeToRead
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title

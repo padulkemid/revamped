@@ -1,0 +1,29 @@
+html {
+  background-color: black;
+}
+
+div {
+  a {
+    color: white;
+  }
+
+  color: white;
+}
+
+hr {
+  background-color: white;
+}
+
+footer {
+  a { 
+    box-shadow: none;
+    filter: grayscale(100%);
+    transition: 0.3s;
+  }
+
+  a:hover {
+    transition: 0.3s;
+    filter: grayscale(0);
+  }
+}
+
