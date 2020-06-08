@@ -58,6 +58,8 @@ const Bio = () => {
         selalu rebahan tiap hari, kalo mau nulis ya nulis kalo nggak yaudah.
         kadang pengen nulis pake <em>english</em> ( ga jago-jago amat,
         itung-itung latian ) kalo ga ya pake bahasa indonesia dong hehehe.
+        <em> By the way,</em> aku baru nyoba nulis nih, kepingin berbagi
+        karangan pada kalian yang udah kesini, semoga tertarik yaaa :D
       </p>
     </div>
   );
