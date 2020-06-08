@@ -76,5 +76,5 @@ semalam. Mungkin terlalu asik sambil menonton *drakor* sepertinya.
 
 ## Tray-sure
 
-> Will be continued, stand by :)
+> Will be continued,please stand by :)
 
