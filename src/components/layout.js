@@ -97,7 +97,10 @@ const Layout = ({ location, title, children }) => {
         style={{
           display: `flex`,
         }}>
-        <a href="https://github.com/padulkemid" target="_blank">
+        <a
+          href="https://github.com/padulkemid"
+          target="_blank"
+          rel="noreferrer">
           <Image
             fixed={socialMedia.github.childImageSharp.fixed}
             alt="github"
@@ -106,7 +109,10 @@ const Layout = ({ location, title, children }) => {
             }}
           />
         </a>
-        <a href="https://twitter.com/padulkemid" target="_blank">
+        <a
+          href="https://twitter.com/padulkemid"
+          target="_blank"
+          rel="noreferrer">
           <Image
             fixed={socialMedia.twitter.childImageSharp.fixed}
             alt="twitter"
@@ -115,7 +121,10 @@ const Layout = ({ location, title, children }) => {
             }}
           />
         </a>
-        <a href="https://instagram.com/padulkemid" target="_blank">
+        <a
+          href="https://instagram.com/padulkemid"
+          target="_blank"
+          rel="noreferrer">
           <Image
             fixed={socialMedia.instagram.childImageSharp.fixed}
             alt="instagram"

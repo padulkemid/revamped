@@ -53,9 +53,11 @@ const Bio = () => {
         }}
       />
       <p>
-        <b>padul</b>
+        <b>+ padul -</b>
         <br />
         selalu rebahan tiap hari, kalo mau nulis ya nulis kalo nggak yaudah.
+        kadang pengen nulis pake <em>english</em> ( ga jago-jago amat,
+        itung-itung latian ) kalo ga ya pake bahasa indonesia dong hehehe.
       </p>
     </div>
   );
