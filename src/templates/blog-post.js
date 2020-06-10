@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
+import { DiscussionEmbed } from 'disqus-react';
 
 import Bio from '../components/bio';
 import Layout from '../components/layout';
@@ -11,6 +12,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata.title;
   const { previous, next } = pageContext;
+  const disqusConfig = {
+    shortname: 'Padulkemid',
+    config: {
+      identifier: post.frontmatter.title,
+    },
+  };
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -48,7 +55,19 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           <Bio />
         </footer>
       </article>
+      <hr
+        style={{
+          marginBottom: rhythm(1),
+        }}
+      />
 
+      <DiscussionEmbed {...disqusConfig} />
+
+      <hr
+        style={{
+          marginBottom: rhythm(1),
+        }}
+      />
       <nav>
         <ul
           style={{
