@@ -7,6 +7,7 @@ module.exports = {
     },
     description: `padulkemid's blog, an average pop punker.`,
     siteUrl: `https://padulkem.id`,
+    image: `./icon.png`,
     social: {
       twitter: `padulkemid`,
     },
