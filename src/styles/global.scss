@@ -7,6 +7,16 @@ div {
     color: white;
   }
 
+  img {
+    filter: grayscale(100%);
+    transition: 0.3s;
+  }
+
+  img:hover {
+    filter: grayscale(0);
+    transition: 0.3s;
+  }
+
   color: white;
 }
 
