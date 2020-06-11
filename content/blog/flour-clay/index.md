@@ -203,3 +203,12 @@ Kerjaan-kerjaan-kerjaan.
 Andai semua ini dapat kita bentuk dan dapat diubah-ubah sesuai dengan kenyamanan
 hati diri kita sendiri layaknya *flour clay*, mungkin hidup ini bisa menjadi
 lebih menarik dari sebelumnya.
+
+<div align="center">
+  <img
+    src="https://www.thesprucecrafts.com/thmb/fGsotF5CdPE09rszlWwyQH8zJMM=/3000x2250/filters:fill(auto,1)/GettyImages-846232866-e2183a73dd3a4596a77d62237b3626ff.jpg" 
+    alt="Flour Clay" 
+    width="400"
+  />
+</div>
+
