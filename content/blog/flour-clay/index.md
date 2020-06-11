@@ -104,7 +104,102 @@ Not again.
 
 *"Apa syaratnya?"*
 
-## Arjuna dalam Kaldu
+## ✿ Arjuna dalam Kaldu
 
-> To be continued, please stay tune !   
-> Thank you very much :D
+*"Beliin aku sama Bunga bakso beneran."*
+
+Semudah itu ? biasanya kalau tantangan atau persyaratan dalam dunia nyata sangat
+mudah bisa jadi ada *udang dibalik batu.* Tapi tidak perlu sungkan, aku langsung
+tancap gas pergi ke depan gang rumah Tari. Dengan hiruk-pikuk kehidupan di
+Jakarta, sangatlah mudah mencari tukang bakso.
+
+Akhirnya, aku membeli 3 bakso,
+1 lengkap, 1 hanya bakso kecil dan tanpa tambahan mie kuning atau putih (
+permintaan dari yang mulia Bunga ), dan 1
+bakso komplit dan hanya memakai mie kuning ( kesukaan Tari ).
+
+Setelah membawa semua pesanan, aku kembali ke rumah dan melihat mereka berdua
+sudah *ngiler* di teras. Sepertinya persyaratannya hanya sebatas membelikan
+bakso, sangat mudah.
+
+*"Aku datang! Nihhhh, yang ini punya Bunga, yang ini punya Tari"*
+
+Kami memakan dengan lahapnya, sampai akhirnya lupa bahwa waktu menunjukan pukul
+5 sore.
+
+*"Syaratnya udah terpenuhi, trus mana jawabannya?"*
+
+Jujur beneran ga disangka-sangka, aku kira jawaban yang diberikan Tari akan
+*nyeleneh* atau tidak tertebak, ternyata sangat datar sekali dengan ia
+menjawab...
+
+*"Bungaa, bakso itu ga ada yang pake sumpit, jadi lebih baik kita bikin sendok
+sama garpu"*
+
+Kenapa ga dari tadi sih ? Ahhhhhh, mengapa aku harus menuruti apa...  
+memang aku terbodohi haha, baiklah tapi tidak mengapa, dengan ini aku dapat
+mengambil kepercayaan mereka berdua.
+
+*Seketika telepon berdering...*
+
+*"AkU SuKa BoDiiY GoyAnGk Ma...~"*
+
+*Oops !!!* Nada dering khas *smartphone* milikku berbunyi. Memang agak eksentrik
+nada dering yang ku miliki, tetapi aku suka. Bunyinya sangat lucu, dapat membuat
+orang yang pernah mendengar lagu tersebut tertawa dan terngiang-ngiang sampai
+tidurnya.
+
+*"Ringtone-nya lucuuu hahahhahha"*
+
+*"Sssst diemm duluu pada, ini Ibu nelpon, bentarrr"*
+
+Kiranya sudah sore mungkin Ibu ingin menyuruhku pulang ke rumah untuk
+mengerjakan berbagai hal, atau sekedar membantu orang yang berada di rumah.
+
+*Sepertinya...*
+
+*"Nak, Kak Rini tiba-tiba terjatuh dan hidungnya mimisan, apakah kamu
+bisa cepat pulang? Di rumah tidak ada siapa-siapa, Bapak belum pulang, kalau
+kamu masih sempat dan bisa pamit sama Tari, cepetan pulang ya nak..."*
+
+Tidak menyangka, aku langsung bergegas bersiap-siap untuk pulang dan pamit ke
+keluarga Tari. Untuk hal lilin mainan tadi aku serahkan kepada Tari dan Bunga,
+sisanya aku pamit ke Mas Zeki dan orang tua Tari.
+
+## ✿ Apakah Dapat Dibentuk ?
+
+*Terburu-buru...  
+Apakah aku terlambat ?*
+
+Di tengah jalan, bensin motorku habis, waktu menunjukkan pukul 6 sore dimana
+orang-orang saat ini beristirahat sementara. Begitu luasnya Jakarta saat ini,
+seharusnya aku dapat menemukan pom bensin di depan.
+
+Aku mendorong motorku sepanjang 2 km dari tempat dimana tadi aku *mogok*.
+Setelah itu aku langsung menemukan tempat pengisian bensin dan mulai mengisi.
+Aku berharap tidak terjadi apapun di rumah serta Kak Rini.
+
+Jantungku mulai berdegup kencang, tidak ada telepon masuk kembali, jam
+menunjukkan pukul 7 malam. Aku mengendarai motorku dengan sangat kencang.
+
+*Yup...*
+
+Jam 8 malam kurang 10 menit aku sampai di rumah.  
+Dan kondisi Kak Rini...
+
+Baik-baik saja.
+
+Setelah konsultasi gejala penyakit yang dialami olehnya, sepertinya ia hanya
+kecapekan, aku langsung tertegun. Sempat panik dan akhirnya aku memeluk Kak
+Rini, seraya berkata..
+
+*"Kak, gapapa kan? kok ga bilang-bilang kalo kerjaan lagi keras banget..."*
+
+*"Iyaa, kakak gapapa cuman agak hardcore aja kerjaan hari ini, tapi tadi setelah
+dicek ternyata tidak ada kondisi yang mendesak."*
+
+Kerjaan-kerjaan-kerjaan.
+
+Andai semua ini dapat kita bentuk dan dapat diubah-ubah sesuai dengan kenyamanan
+hati diri kita sendiri layaknya *flour clay*, mungkin hidup ini bisa menjadi
+lebih menarik dari sebelumnya.
