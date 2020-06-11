@@ -2,6 +2,7 @@
 title: Flour Clay
 date: "2020-06-09"
 description: Kerajinan tangan atau hiasan, tetapi hanya sekedar pelipur lara.
+ogimage: ./flour_clay.jpg
 ---
 
 ## ✿ Dua Puluh Telur

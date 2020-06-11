@@ -2,6 +2,7 @@
 title: Cake Tray
 date: "2020-06-08"
 description: Sebuah seni yang diciptakan melalui tumpukan sagu?
+ogimage: ./cake_tray.jpg
 ---
 
 ## ❄︎ Bau Pesing di Pagi Hari

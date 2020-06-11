@@ -12,10 +12,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata.title;
   const { previous, next } = pageContext;
+  const { title, ogimage } = post.frontmatter;
+  const ogImagePath = ogimage && ogimage.childImageSharp.fixed.src;
   const disqusConfig = {
     shortname: 'Padulkemid',
     config: {
-      identifier: post.frontmatter.title,
+      identifier: title,
     },
   };
 
@@ -24,6 +26,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
+        image={ogImagePath}
       />
       <article>
         <header>
@@ -115,6 +118,13 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        ogimage {
+          childImageSharp {
+            fixed {
+              src
+            }
+          }
+        }
       }
     }
   }

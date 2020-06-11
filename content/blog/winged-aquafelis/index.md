@@ -2,6 +2,7 @@
 title: Winged Aquafelis
 date: "2020-04-26"
 description: Walk in the path of virtue or run in the path of evil?
+ogimage: ./winged_aquafelis.jpg
 ---
 
 ## Verse 1: Water
