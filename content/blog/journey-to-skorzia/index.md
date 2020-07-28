@@ -47,6 +47,16 @@ Skorzia's finest source of fighters is from the guilds. I promised you I'll tell
 them. Well, here we go: 
 
 #### The Annuculanths
+
+Well here we go, this is the first and foremost the strongest guild in Skorzia.
+Led by ***Jacculanth the Great*** ( pronounced : Di-Jæ-SU laandtch ). a 2324
+Years old man, with long-term manuvering beard. As you can imagine, he is really
+big in shape. Heights around 3 meters, and weighs for about 2 tons. Picture of a
+really tough wall with an iron gate ( double those gates into silver or molten
+steel ) and you got it.
+
+Jacculanth got all of Skorzia's respect.... 
+
 #### The Khragtunths
 #### The Bundstonths
 #### The Quryanths
