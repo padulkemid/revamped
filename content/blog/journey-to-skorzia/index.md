@@ -1,7 +1,7 @@
 ---
 
 title: Journey to Skorzia
-date: "2020-07-20"
+date: "2020-08-16"
 description: A path choosen between dire consequences.
 ogimage: ./journey_to_skorzia.jpg
 
