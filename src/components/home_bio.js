@@ -52,9 +52,19 @@ const HomeBio = () => {
         }}
       />
       <p>
-        Samlekommm! My name is <b>Fadhil Muhammad</b>.
+        Hi my name is <b>Fadhil Muhammad</b>!
         <br />
-        kalo lagi gabut bakal nulis konten disini.
+        I'm currently working as a Software Engineer at{' '}
+        <a href="https://dkatalis.co/" target="_blank" rel="noreferrer">
+          DKatalis
+        </a>
+        .
+        <br />
+        If you have no idea, we're the guys behind{' '}
+        <a href="https://www.jago.com/" target="_blank" rel="noreferrer">
+          Jago
+        </a>
+        .
       </p>
     </div>
   );
