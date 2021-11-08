@@ -48,7 +48,7 @@ const Layout = ({ location, title, children }) => {
             color: `inherit`,
           }}
           to={`/`}>
-          + your average pop punker -
+          + solve et coagula -
         </Link>
       </h1>
     );
