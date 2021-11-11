@@ -3,7 +3,7 @@
 title: Gratitude
 date: "2021-11-09"
 description: Feel all the things that you can't see, but you already did.
-ogimage: ./things-you-are-grateful-for.jpg
+ogimage: ./gratitude.jpg
 
 ---
 
