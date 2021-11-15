@@ -11,6 +11,20 @@ import Image from 'gatsby-image';
 
 import { rhythm } from '../utils/typography';
 
+const styles = {
+  container: {
+    display: 'flex',
+    marginBottom: rhythm(0.5),
+  },
+  profileImg: {
+    marginRight: rhythm(1 / 2),
+    marginBottom: rhythm(1),
+    minWidth: 100,
+    minHeight: 100,
+    borderRadius: `100%`,
+  },
+};
+
 const HomeBio = () => {
   const [width, setWindowWidth] = useState(0);
   const atMobileRes = width <= 425;
@@ -49,7 +63,7 @@ const HomeBio = () => {
 
   const { author } = data.site.siteMetadata;
   const responsiveStyle = {
-    div: {
+    container: {
       flexDirection: atMobileRes ? `column` : `row`,
       alignItems: atMobileRes ? `center` : `stretch`,
     },
@@ -58,21 +72,13 @@ const HomeBio = () => {
   return (
     <div
       style={{
-        display: `flex`,
-        marginBottom: rhythm(0.5),
-        ...responsiveStyle.div,
+        ...styles.container,
+        ...responsiveStyle.container,
       }}>
       <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author.name}
-        style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: rhythm(1),
-          minWidth: 100,
-          minHeight: 100,
-          borderRadius: `100%`,
-          ...responsiveStyle.img,
-        }}
+        style={styles.profileImg}
       />
       <p>
         Hi my name is <b>Fadhil Muhammad</b>!

@@ -8,12 +8,38 @@ import SEO from '../components/seo';
 import { rhythm, scale } from '../utils/typography';
 import { readingTime } from '../utils/helper';
 
+const styles = {
+  title: {
+    fontFamily: `Poppins, sans-serif`,
+    marginTop: rhythm(1),
+    marginBottom: 0,
+  },
+  readingTime: {
+    ...scale(-1 / 5),
+    display: `block`,
+    marginBottom: rhythm(1),
+  },
+  divider: {
+    marginBottom: rhythm(1),
+  },
+  navigator: {
+    display: `flex`,
+    flexWrap: `wrap`,
+    justifyContent: `space-between`,
+    listStyle: `none`,
+    padding: 0,
+  },
+};
+
 const BlogPostTemplate = ({ data, pageContext, location }) => {
-  const post = data.markdownRemark;
-  const siteTitle = data.site.siteMetadata.title;
   const { previous, next } = pageContext;
+
+  const post = data.markdownRemark;
   const { title, ogimage } = post.frontmatter;
+
+  const siteTitle = data.site.siteMetadata.title;
   const ogImagePath = ogimage && ogimage.childImageSharp.fixed.src;
+
   const disqusConfig = {
     shortname: 'Padulkemid',
     config: {
@@ -30,56 +56,25 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       />
       <article>
         <header>
-          <h1
-            style={{
-              fontFamily: `Poppins, sans-serif`,
-              marginTop: rhythm(1),
-              marginBottom: 0,
-            }}>
-            {post.frontmatter.title}
-          </h1>
-          <p
-            style={{
-              ...scale(-1 / 5),
-              display: `block`,
-              marginBottom: rhythm(1),
-            }}>
+          <h1 style={styles.title}>{post.frontmatter.title}</h1>
+          <p style={styles.readingTime}>
             {post.frontmatter.date} &nbsp;•&nbsp; {readingTime(post.timeToRead)}
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+        <hr style={styles.divider} />
         <footer>
           <p>Written by :</p>
           <Bio />
         </footer>
       </article>
-      <hr
-        style={{
-          marginBottom: rhythm(1),
-        }}
-      />
+      <hr style={styles.divider} />
 
       <DiscussionEmbed {...disqusConfig} />
 
-      <hr
-        style={{
-          marginBottom: rhythm(1),
-        }}
-      />
+      <hr style={styles.divider} />
       <nav>
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}>
+        <ul style={styles.navigator}>
           <li>
             {previous && (
               <Link to={previous.fields.slug} rel="prev">

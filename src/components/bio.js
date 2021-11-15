@@ -11,6 +11,19 @@ import Image from 'gatsby-image';
 
 import { rhythm } from '../utils/typography';
 
+const styles = {
+  container: {
+    display: `flex`,
+    marginBottom: rhythm(2),
+  },
+  profileImg: {
+    marginRight: rhythm(1 / 2),
+    marginBottom: rhythm(1.5),
+    minWidth: 100,
+    borderRadius: `100%`,
+  },
+};
+
 const Bio = () => {
   const [width, setWindowWidth] = useState(0);
   const atMobileRes = width <= 425;
@@ -50,11 +63,11 @@ const Bio = () => {
 
   const { author } = data.site.siteMetadata;
   const responsiveStyle = {
-    div: {
+    container: {
       flexDirection: atMobileRes ? `column` : `row`,
       alignItems: atMobileRes ? `center` : `stretch`,
     },
-    img: {
+    profileImg: {
       minHeight: atMobileRes ? 125 : 100,
     },
   };
@@ -62,19 +75,15 @@ const Bio = () => {
   return (
     <div
       style={{
-        display: `flex`,
-        marginBottom: rhythm(2),
-        ...responsiveStyle.div,
+        ...styles.container,
+        ...responsiveStyle.container,
       }}>
       <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author.name}
         style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: rhythm(1.5),
-          minWidth: 100,
-          borderRadius: `100%`,
-          ...responsiveStyle.img,
+          ...styles.profileImg,
+          ...responsiveStyle.profileImg,
         }}
       />
       <p>
