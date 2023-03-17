@@ -2,7 +2,7 @@
   "name": "padulkemid",
   "private": true,
   "engines": {
-    "node": "12.x"
+    "node": "14.x"
   },
   "description": "Padulkemid",
   "version": "1.0.0",
