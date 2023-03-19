@@ -9,7 +9,7 @@ ogimage: ./you_won.jpg
 
 ## 🤍 T.Hanks
 
-From the *Forest Gump*, to *The Man Called Otto*, Tom Hanks always surprised me
+From the *Forrest Gump*, to *The Man Called Otto*, Tom Hanks always surprised me
 by how he act in a movie. Similarly, to you. You have always been surprising me
 from the beginning I met you. I actually didn't notice there is one person whom
 being so into me for anything but jokes and stuff.
